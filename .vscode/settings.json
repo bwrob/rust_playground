@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Dracula For Rust Theme",
+    "files.autoSave": "onFocusChange",
+    "editor.tabSize": 4,
+    "workbench.tree.indent": 16
+}

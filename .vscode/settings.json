@@ -1,6 +1,18 @@
 {
-    "workbench.colorTheme": "Dracula For Rust Theme",
-    "files.autoSave": "onFocusChange",
+    "[rust]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ]
+    },
+    "editor.renderLineHighlight": "all",
     "editor.tabSize": 4,
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Dekirisu's Dawn",
     "workbench.tree.indent": 16
 }

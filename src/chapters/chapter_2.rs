@@ -1,5 +1,4 @@
-use std::io;
-
+use crate::utils::input_utils::input_as_integer_result;
 use rand::Rng;
 use std::cmp::Ordering;
 
@@ -10,13 +9,7 @@ pub fn guessing_game() {
     loop {
         println!("Please input your guess.");
 
-        let mut guess = String::new();
-
-        io::stdin()
-            .read_line(&mut guess)
-            .expect("Failed to read line");
-
-        let guess: u32 = match guess.trim().parse() {
+        let guess = match input_as_integer_result() {
             Ok(num) => num,
             Err(_) => continue,
         };

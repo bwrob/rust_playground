@@ -21,6 +21,6 @@
         "rust-lang.rust-analyzer",
         "swellaby.vscode-rust-test-adapter",
         "tamasfe.even-better-toml",
-        "zhangyue.rust-mod-generator",
+        "zhangyue.rust-mod-generator"
     ]
 }

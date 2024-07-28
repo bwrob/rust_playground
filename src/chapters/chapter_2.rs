@@ -1,6 +1,6 @@
+use crate::utils::input_utils::input_as_integer_result;
 use rand::Rng;
 use std::cmp::Ordering;
-use crate::utils::input_utils::input_as_integer_result;
 
 pub fn guessing_game() {
     println!("Guess the number!");

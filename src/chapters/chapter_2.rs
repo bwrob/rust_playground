@@ -9,7 +9,7 @@ pub fn guessing_game() {
     loop {
         println!("Please input your guess.");
 
-        let guess: i32 = match input_as_integer_result() {
+        let guess = match input_as_integer_result() {
             Ok(num) => num,
             Err(_) => continue,
         };

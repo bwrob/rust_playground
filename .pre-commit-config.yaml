@@ -4,8 +4,10 @@ repos:
       - id: fmt
       - id: cargo-check
       - id: clippy
-    repo: https://github.com/doublify/pre-commit-rust
-    rev: v1.0
+      - id: build
+      - id: test
+    repo: https://github.com/FeryET/pre-commit-rust
+    rev: v1.1.0
   - hooks:
       - id: check-byte-order-marker
       - id: check-case-conflict
